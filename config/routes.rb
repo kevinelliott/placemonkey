@@ -1,4 +1,10 @@
 Placemonkey::Application.routes.draw do
+  get "welcome/index"
+
+  get "image/index"  
+  resources :source_images
+  match '/:width/:height' => 'image#index', :as => :image
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
