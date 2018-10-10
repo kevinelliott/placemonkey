@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.0'
 gem 'json'
-gem 'fog'
+gem 'fog', '>= 1.14.0'
 gem 'carrierwave'
 gem 'rmagick', :require => 'RMagick'
 gem 'jquery-rails'
