@@ -5,13 +5,13 @@ gem 'json'
 gem 'fog'
 gem 'carrierwave'
 gem 'rmagick', :require => 'RMagick'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 1.0.13'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', "  ~> 3.1.0"
-  gem 'coffee-rails', "~> 3.1.0"
+  gem 'sass-rails', '~> 3.1.0'
+  gem 'coffee-rails', '~> 3.1.0'
   gem 'uglifier'
 end
 
